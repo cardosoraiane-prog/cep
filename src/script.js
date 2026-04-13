@@ -15,8 +15,7 @@ fetch(`https://viacep.com.br/ws/${cep}/json`)
         <p>lougradouro:${data.loigaradouro}</p>
         <p>bairro:${data.bairro}</p>
         <p>cidade:${data.localidade}</p>
-        <p>estado:${data.uf}</p>
-        `; 
+        <p>estado:${data.uf}</p> `; 
     }
     
 })
@@ -27,4 +26,4 @@ fetch(`https://viacep.com.br/ws/${cep}/json`)
 })
   
 
-
+}
